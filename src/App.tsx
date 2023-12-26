@@ -39,7 +39,7 @@ function App() {
         <p className="pt-3">
           <Hyperlink
             text="Planning Poker"
-            link="https://julianelda.io/planning-poker"
+            link="https://julianelda.io/planning-poker/"
           />
         </p>
         <p>Online Scrum/Planning poker.</p>
@@ -50,7 +50,7 @@ function App() {
         <p className="pt-4">
           <Hyperlink
             text="f4"
-            link="https://julianelda.github.io/f4/"
+            link="https://julianelda.io/f4/"
           />
         </p>
         <p>
