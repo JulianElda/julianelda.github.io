@@ -43,7 +43,7 @@ function App() {
           />
         </p>
         <p>Online Scrum/Planning poker.</p>
-        <p className="text-sm italic">
+        <p className="text-sm text-gray-700 dark:text-gray-300">
           Firebase, Angular, Nx, jest, Cypress, Storybook, tailwindcss,
           Fontawesome.
         </p>
@@ -57,7 +57,7 @@ function App() {
           A theorycrafting tool for Final Fantasy XIV's Black Mage. Compare
           specified rotation to standard rotation.
         </p>
-        <p className="text-sm italic">
+        <p className="text-sm text-gray-700 dark:text-gray-300">
           React, Vite, Vitest, TypeScript, tailwindcss.
         </p>
         <p className="pt-4">
@@ -67,7 +67,9 @@ function App() {
           />
         </p>
         <p>My homepage.</p>
-        <p className="text-sm italic">React, Vite, TypeScript, tailwindcss.</p>
+        <p className="text-sm text-gray-700 dark:text-gray-300">
+          React, Vite, TypeScript, tailwindcss.
+        </p>
 
         <Heading title="Contact" />
         <p>

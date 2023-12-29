@@ -49,7 +49,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="mx-auto max-w-4xl p-2 sm:fixed sm:bottom-1 sm:left-0 sm:right-0 sm:h-10">
+    <footer className="mx-auto max-w-4xl bg-gray-50 p-2 sm:fixed sm:bottom-0 sm:left-0 sm:right-0 sm:h-10 dark:bg-gray-800">
       <div className="flex">
         {getFooterContent()}
         <div className="flex-1 text-end">
