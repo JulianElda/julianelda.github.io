@@ -1,7 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 
 export default {
-  content: ["./src/**/*.{ts,tsx}", "./index.html"],
+  content: [
+    "./src/**/*.{ts,tsx}",
+    "./index.html",
+    "./node_modules/@julianelda/scratchpad/dist/scratchpad.js",
+  ],
   theme: {
     extend: {},
     fontFamily: {
