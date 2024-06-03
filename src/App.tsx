@@ -1,8 +1,9 @@
-import Footer from "./components/Footer";
+import { Footer, useDarkMode, Hyperlink } from "@julianelda/scratchpad";
 import Heading from "./components/Heading";
-import Hyperlink from "./components/Hyperlink";
 
 function App() {
+  const { isDarkTheme, toggleDarkTheme } = useDarkMode();
+
   return (
     <>
       <div className="mx-auto max-w-4xl text-xl md:pb-10">
@@ -21,13 +22,13 @@ function App() {
         <p>
           I'm currently working at{" "}
           <Hyperlink
-            text="Uniscon GmbH"
-            link="https://www.idgard.com/about/"
+            title="https://www.idgard.com/about/"
+            href="Uniscon GmbH"
           />
           , developing the main web-application of the company's main product,{" "}
           <Hyperlink
-            text="idgard"
-            link="https://www.idgard.com/"
+            title="idgard"
+            href="https://www.idgard.com/"
           />
           .
         </p>
@@ -38,8 +39,8 @@ function App() {
         </p>
         <p className="pt-3">
           <Hyperlink
-            text="Planning Poker"
-            link="https://julianelda.io/planning-poker/"
+            title="Planning Poker"
+            href="https://julianelda.io/planning-poker/"
           />
         </p>
         <p>Online Scrum/Planning poker.</p>
@@ -49,8 +50,8 @@ function App() {
         </p>
         <p className="pt-4">
           <Hyperlink
-            text="f4"
-            link="https://julianelda.io/f4/"
+            title="f4"
+            href="https://julianelda.io/f4/"
           />
         </p>
         <p>
@@ -62,8 +63,18 @@ function App() {
         </p>
         <p className="pt-4">
           <Hyperlink
-            text="This page"
-            link="https://julianelda.io/"
+            title="meter"
+            href="https://julianelda.io/meter/"
+          />
+        </p>
+        <p>Tools and converters.</p>
+        <p className="text-sm text-gray-700 dark:text-gray-300">
+          React, Vite, Vitest, TypeScript, tailwindcss.
+        </p>
+        <p className="pt-4">
+          <Hyperlink
+            title="This page"
+            href="https://julianelda.io/"
           />
         </p>
         <p>My homepage.</p>
@@ -75,18 +86,23 @@ function App() {
         <p>
           You can contact me via{" "}
           <Hyperlink
-            text="LinkedIn"
-            link="https://www.linkedin.com/in/julius-polar/"
+            title="LinkedIn"
+            href="https://www.linkedin.com/in/julius-polar/"
           />
           . Check out my{" "}
           <Hyperlink
-            text="GitHub"
-            link="https://github.com/JulianElda"
+            title="GitHub"
+            href="https://github.com/JulianElda"
           />{" "}
           too.
         </p>
       </div>
-      <Footer />
+      <Footer
+        label="Julius Polar@GitHub"
+        link="https://github.com/JulianElda/julianelda.github.io"
+        darkTheme={isDarkTheme}
+        toggleDarkTheme={toggleDarkTheme}
+      />
     </>
   );
 }
