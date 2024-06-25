@@ -22,8 +22,8 @@ function App() {
         <p>
           I'm currently working at{" "}
           <Hyperlink
-            title="https://www.idgard.com/about/"
-            href="Uniscon GmbH"
+            title="Uniscon GmbH"
+            href="https://www.idgard.com/about/"
           />
           , developing the main web-application of the company's main product,{" "}
           <Hyperlink
