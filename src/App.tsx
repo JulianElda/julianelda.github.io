@@ -22,15 +22,10 @@ function App() {
         <p>
           I'm currently working at{" "}
           <Hyperlink
-            title="Uniscon GmbH"
-            href="https://www.idgard.com/about/"
-          />
-          , developing the main web-application of the company's main product,{" "}
-          <Hyperlink
-            title="idgard"
-            href="https://www.idgard.com/"
-          />
-          .
+            title="Brainlab"
+            href="https://www.brainlab.com/"
+          />{" "}
+          as a software engineer.
         </p>
 
         <Heading title="Personal projects" />
@@ -50,6 +45,16 @@ function App() {
         </p>
         <p className="pt-4">
           <Hyperlink
+            title="meter"
+            href="https://julianelda.io/meter/"
+          />
+        </p>
+        <p>Tools and converters.</p>
+        <p className="text-sm text-gray-700 dark:text-gray-300">
+          React, Vite, Vitest, TypeScript, tailwindcss.
+        </p>
+        <p className="pt-4">
+          <Hyperlink
             title="f4"
             href="https://julianelda.io/f4/"
           />
@@ -63,16 +68,6 @@ function App() {
         </p>
         <p className="pt-4">
           <Hyperlink
-            title="meter"
-            href="https://julianelda.io/meter/"
-          />
-        </p>
-        <p>Tools and converters.</p>
-        <p className="text-sm text-gray-700 dark:text-gray-300">
-          React, Vite, Vitest, TypeScript, tailwindcss.
-        </p>
-        <p className="pt-4">
-          <Hyperlink
             title="This page"
             href="https://julianelda.io/"
           />
@@ -81,7 +76,6 @@ function App() {
         <p className="text-sm text-gray-700 dark:text-gray-300">
           React, Vite, TypeScript, tailwindcss.
         </p>
-
         <Heading title="Contact" />
         <p>
           You can contact me via{" "}
