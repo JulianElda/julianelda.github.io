@@ -32,26 +32,21 @@ function App() {
         <p>
           I also developed various web-applications on my own, check them out.
         </p>
-        <p className="pt-3">
+        <p className="pt-4">
           <Hyperlink
             title="Planning Poker"
             href="https://julianelda.io/planning-poker/"
           />
         </p>
         <p>Online Scrum/Planning poker.</p>
-        <p className="text-sm text-gray-700 dark:text-gray-300">
-          Firebase, Angular, Nx, jest, Cypress, Storybook, tailwindcss,
-          Fontawesome.
-        </p>
         <p className="pt-4">
           <Hyperlink
             title="meter"
             href="https://julianelda.io/meter/"
           />
         </p>
-        <p>Tools and converters.</p>
-        <p className="text-sm text-gray-700 dark:text-gray-300">
-          React, Vite, Vitest, TypeScript, tailwindcss.
+        <p>
+          Tools and converters. Convert various units like time, weight, volume.
         </p>
         <p className="pt-4">
           <Hyperlink
@@ -63,9 +58,6 @@ function App() {
           A theorycrafting tool for Final Fantasy XIV's Black Mage. Compare
           specified rotation to standard rotation.
         </p>
-        <p className="text-sm text-gray-700 dark:text-gray-300">
-          React, Vite, Vitest, TypeScript, tailwindcss.
-        </p>
         <p className="pt-4">
           <Hyperlink
             title="This page"
@@ -73,9 +65,6 @@ function App() {
           />
         </p>
         <p>My homepage.</p>
-        <p className="text-sm text-gray-700 dark:text-gray-300">
-          React, Vite, TypeScript, tailwindcss.
-        </p>
         <Heading title="Contact" />
         <p>
           You can contact me via{" "}
