@@ -42,7 +42,7 @@ function App() {
         <p className="pt-4">
           <Hyperlink
             title="meter"
-            href="https://meter-nine.vercel.app/"
+            href="https://julianelda.io/meter/"
           />
         </p>
         <p>
