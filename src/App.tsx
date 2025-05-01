@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="mx-auto max-w-4xl text-xl md:pb-10">
-        <h1 className="text-center font-heading text-3xl font-semibold md:pt-4 md:text-start">
+        <h1 className="font-heading text-center text-3xl font-semibold md:pt-4 md:text-start">
           Julius Polar
         </h1>
 
