@@ -1,9 +1,7 @@
-import { Footer, useDarkMode, Hyperlink } from "@julianelda/scratchpad";
+import { Footer, Hyperlink } from "@julianelda/scratchpad";
 import Heading from "./components/Heading";
 
 function App() {
-  const { isDarkTheme, toggleDarkTheme } = useDarkMode();
-
   return (
     <>
       <div className="mx-auto max-w-4xl text-xl md:pb-10">
@@ -83,8 +81,6 @@ function App() {
       <Footer
         label="Julius Polar@GitHub"
         link="https://github.com/JulianElda/julianelda.github.io"
-        darkTheme={isDarkTheme}
-        toggleDarkTheme={toggleDarkTheme}
       />
     </>
   );
